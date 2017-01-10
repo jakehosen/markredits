@@ -1,0 +1,21 @@
+Package: markr
+Type: Package
+Title: markr / Human-assisted anomaly detection
+Version: 0.1
+Date: 2016-09-12
+Author: Aaron Berdanier
+Maintainer: Aaron Berdanier <aaron.berdanier@gmail.com>
+Description: markr provides a visual interface for rapid anomaly detection in time series data.
+    It can be used as part of an analysis work flow or stand alone (examples included).
+    The package fits a machine learning algorithm to automatically suggest anomalies.
+    The user can keep those flags or mark new sections of the data and add flag names and comments.
+    Marked data and flag metadata can be saved for future use.
+    The fitted model objects can be saved locally for training future data sets as well.
+Imports:
+    dplyr,
+    e1071,
+    ggplot2,
+    readr,
+    shiny,
+    tidyr
+License: GNU General Public License
